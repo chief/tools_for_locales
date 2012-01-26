@@ -24,4 +24,8 @@ Currently is tested on rails3+ and ruby 1.9.3
   *WARNING*
   All locale files will be overwritten
 
+== Tests
+
+  rspec spec/
+
 

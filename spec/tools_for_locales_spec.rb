@@ -20,4 +20,9 @@ describe ToolsForLocales do
     sort_hash(a).should be_eql(result)
   end
 
+  it 'should return self given a sorted hash' do
+    sorted = { is: 2, simple: 4, this: 1, very: 3 }
+    sort_hash(sorted).should be_eql(sorted)
+  end
+
 end
