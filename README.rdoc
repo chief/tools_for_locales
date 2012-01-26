@@ -44,7 +44,7 @@ Currently is tested on rails3+ and ruby 1.9.3
   rake tools_for_locales:sort_tokens
 
 *WARNING*
-  All locale files will be overwritten
+All locale files will be overwritten
 
 == Tests
 
