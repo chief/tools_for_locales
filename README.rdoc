@@ -9,6 +9,28 @@ A small collection of tools for locales wannabe project. Currently supports only
 When working with lot of tokens it's best practice to arrange the keys in alphabetical order.
 That is what this task does.
 
+Give a yaml file like this:
+
+  en:
+    admin:
+      menu:
+        company: "Company"
+        about_us: "About Us"
+      flashes:
+        success: "Success"
+        failure: "Failure"
+
+The result will be:
+
+  en:
+    admin:
+      flashes:
+        failure: "Failure"
+        success: "Success"
+      menu:
+        about_us: "About Us"
+        company: "Company"
+
 == Install
 
 In your Gemfile
