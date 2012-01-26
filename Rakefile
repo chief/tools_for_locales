@@ -21,7 +21,7 @@ RDoc::Task.new(:rdoc) do |rdoc|
 end
 
 
-load 'lib/tasks/*.rake'
+#load 'lib/tasks/*.rake'
 
 Bundler::GemHelper.install_tasks
 

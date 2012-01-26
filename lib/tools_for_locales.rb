@@ -1,3 +1,5 @@
+require 'tools_for_locales/railtie' if defined?(Rails)
+
 module ToolsForLocales
 
   def sort_hash(hash)
