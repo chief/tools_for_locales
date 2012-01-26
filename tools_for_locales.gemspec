@@ -7,11 +7,11 @@ require "tools_for_locales/version"
 Gem::Specification.new do |s|
   s.name        = "tools_for_locales"
   s.version     = ToolsForLocales::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ToolsForLocales."
-  s.description = "TODO: Description of ToolsForLocales."
+  s.authors     = ["Giorgos Tsiftsis"]
+  s.email       = ["giorgos.tsiftsis@gmail.com"]
+  s.homepage    = "https://github.com/chief/tools_for_locales"
+  s.summary     = "A collection of tools for handling locales in a rails project."
+  s.description = "A collection of tools for handling locales in a rails project."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 end
