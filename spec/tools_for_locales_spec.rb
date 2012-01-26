@@ -1,7 +1,6 @@
 # encoding: utf-8
 
 require 'tools_for_locales'
-require 'pry'
 
 describe ToolsForLocales do
 

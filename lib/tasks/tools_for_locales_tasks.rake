@@ -1,5 +1,4 @@
 require 'tools_for_locales'
-require 'pry'
 
 namespace :tools_for_locales do
 
