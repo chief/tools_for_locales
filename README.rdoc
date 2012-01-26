@@ -1,5 +1,27 @@
 = ToolsForLocales
 
-coming soon
+== Description
 
-This project rocks and uses MIT-LICENSE.
+A small collection of tools for locales wannabe project. Currently supports only sort_tokens.
+
+=== Sort Tokens
+
+When working with lot of tokens it's best practice to arrange the keys in alphabetical order.
+That is what this task does.
+
+== Install
+
+In your Gemfile
+
+  gem 'tools_for_locales'
+
+Currently is tested on rails3+ and ruby 1.9.3
+
+== Usage
+
+  rake tools_for_locales:sort_tokens
+
+  *WARNING*
+  All locale files will be overwritten
+
+
