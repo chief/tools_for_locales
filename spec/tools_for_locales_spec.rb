@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 require 'tools_for_locales'
+require 'yaml'
 
 describe ToolsForLocales do
 

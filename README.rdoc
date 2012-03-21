@@ -25,11 +25,14 @@ The result will be:
   en:
     admin:
       flashes:
-        failure: "Failure"
-        success: "Success"
+        failure: Failure
+        success: Success
       menu:
-        about_us: "About Us"
-        company: "Company"
+        about_us: About Us
+        company: Company
+
+
+This method uses the default to_yaml formatting options.
 
 == Install
 
